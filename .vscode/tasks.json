@@ -22,10 +22,7 @@
             "options": {
                 "cwd": "${workspaceFolder}/docs/docfx_project"
             },
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
+            "group": "build",
             "promptOnClose": true,
             "type": "process",
             "presentation": {
@@ -44,6 +41,33 @@
             "echoCommand": true,
             "isBuildCommand": true,
             "detail": "${cwd}",
+            "problemMatcher": []
+        },
+        {
+            "label": "Nuke: Compile",
+            "type": "shell",
+            "windows": {
+                "command": "${workspaceFolder}/build.ps1",
+                "options": {
+                    "cwd": "${workspaceFolder}",
+                    "shell": {
+                        "executable": "pwsh"
+                    }
+                }
+            },
+            "linux": {
+                "command": "./build.sh",
+                "options": {
+                    "cwd": "${workspaceFolder}/AhcsCompiler",
+                    "shell": {
+                        "executable": "/bin/bash"
+                    }
+                }
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
             "problemMatcher": []
         }
     ]
