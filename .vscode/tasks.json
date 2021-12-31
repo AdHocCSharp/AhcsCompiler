@@ -1,0 +1,50 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "DocFX: Clean",
+            "type": "shell",
+            "command": "rm \"${workspaceFolder}/docs/docfx_project/wwwroot\" -Recurse -Force -ErrorAction SilentlyContinue; exit 0;",
+            "problemMatcher": []
+        },
+        {
+            "label": "DocFX: Build",
+            "dependsOn": [
+                "DocFX: Clean"
+            ],
+            "command": "docfx",
+            "args": [
+                "build",
+                "docfx.json"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/docs/docfx_project"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "promptOnClose": true,
+            "type": "process",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": true
+            },
+            "runOptions": {
+                "instanceLimit": 1,
+                "reevaluateOnRerun": true,
+                "runOn": "default"
+            },
+            "echoCommand": true,
+            "isBuildCommand": true,
+            "detail": "${cwd}",
+            "problemMatcher": []
+        }
+    ]
+}

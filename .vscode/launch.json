@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Serve Root DocFX Site",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "DocFX: Build",
+            "program": "dotnet-serve",
+            "args": [
+                "-o",
+                "-p",
+                "5000"
+            ],
+            "cwd": "${workspaceFolder}/docs/docfx_project/wwwroot",
+            "externalConsole": true,
+            "targetArchitecture": "x64",
+            "stopAtEntry": false,
+            "logging": {
+                "browserStdOut": true,
+                "exceptions": true,
+                "programOutput": true
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        }
+    ]
+}
