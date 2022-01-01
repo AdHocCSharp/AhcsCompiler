@@ -21,7 +21,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{22AF9C8E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ahcs.Expander.Tests", "Ahcs.Expander\tests\Ahcs.Expander.Tests.csproj", "{B44CEA12-6D5E-4A98-88F9-397DE143ED6D}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TestFiles", "Ahcs.Expander\TestFiles\TestFiles.shproj", "{B5A38953-6772-42B2-BBC8-510F42226E5A}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Ahcs.Expander\TestFiles\TestFiles.projitems*{b5a38953-6772-42b2-bbc8-510f42226e5a}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -43,6 +48,7 @@ Global
 		{7A0D1CD5-9DFC-4C16-8D4C-3FB025FFA192} = {4976C352-43E7-4D34-9F21-AE0464B93C7D}
 		{62E2D353-C3F5-44E2-99AA-4D8E1B736E58} = {7A0D1CD5-9DFC-4C16-8D4C-3FB025FFA192}
 		{B44CEA12-6D5E-4A98-88F9-397DE143ED6D} = {22AF9C8E-EC8D-4E42-920B-AC08B025D931}
+		{B5A38953-6772-42B2-BBC8-510F42226E5A} = {22AF9C8E-EC8D-4E42-920B-AC08B025D931}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {79780E05-0672-4DA5-83FC-A64EB1911380}
