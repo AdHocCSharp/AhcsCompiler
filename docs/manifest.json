@@ -9,10 +9,46 @@
       "output": {
         ".html": {
           "relative_path": "api/Ahcs.Expander.AdHocParser.html",
-          "hash": "+uYNzkx50lgJ8IvHOduFzQozJFZmTcUMTKrc1qRoW80="
+          "hash": "O06goTJhQvFSYRK/4nqgsWStdnHouGwr4rdQsMr/m1U="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ahcs.Expander.AdHosParserExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ahcs.Expander.AdHosParserExtensions.html",
+          "hash": "j4jK781Ku8eFa+px3VD/ts8w3g9vEpy4Vp8PSyttkhU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ahcs.Expander.Ahcs.Expander.AdHosParserExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ahcs.Expander.Ahcs.Expander.AdHosParserExtensions.html",
+          "hash": "I12CgF0X7Eq2V0jkF1QPtFP1KVwEuYrZhi4K5zZFDPc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Ahcs.Expander.Ahcs.Expander.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Ahcs.Expander.Ahcs.Expander.html",
+          "hash": "fvQo0bqGe+NNBpCPyiI7FvH8pwFBcp+WJhbUXExiUfQ="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -21,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Ahcs.Expander.html",
-          "hash": "YhAT1Gu3ra9LMmpSrBFmgC3nyMwm20nkGQbfZct2kK4="
+          "hash": "GBnZmm30pa6WITibYaZ6y1QrKtfs1EfwBI+BLI59Ne4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -36,7 +72,7 @@
           "hash": "U3IXPhIc9mzEhpYqXETeuNIaZ7Lko3peaCZOYB85JWM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -45,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "ENpfjkLAot5TqzV4AjTyNyafuaBTOXxqjok4Evuqqc8="
+          "hash": "8imq8QN6MGSMSRL/JV4obHVzKZU+LrdQVHz4cgP+VOc="
         }
       },
       "is_incremental": false,
@@ -118,8 +154,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 2,
-          "skipped_file_count": 2
+          "total_file_count": 5,
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

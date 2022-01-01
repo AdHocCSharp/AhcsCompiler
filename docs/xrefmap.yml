@@ -13,15 +13,15 @@ references:
   commentId: T:Ahcs.Expander.AdHocParser
   fullName: Ahcs.Expander.AdHocParser
   nameWithType: AdHocParser
-- uid: Ahcs.Expander.AdHocParser.#ctor(Microsoft.Extensions.Logging.ILogger{Ahcs.Expander.AdHocParser},LibGit2Sharp.Repository,Microsoft.CodeAnalysis.MSBuild.MSBuildWorkspace)
-  name: AdHocParser(ILogger<AdHocParser>, Repository, MSBuildWorkspace)
-  href: api/Ahcs.Expander.AdHocParser.html#Ahcs_Expander_AdHocParser__ctor_Microsoft_Extensions_Logging_ILogger_Ahcs_Expander_AdHocParser__LibGit2Sharp_Repository_Microsoft_CodeAnalysis_MSBuild_MSBuildWorkspace_
-  commentId: M:Ahcs.Expander.AdHocParser.#ctor(Microsoft.Extensions.Logging.ILogger{Ahcs.Expander.AdHocParser},LibGit2Sharp.Repository,Microsoft.CodeAnalysis.MSBuild.MSBuildWorkspace)
-  name.vb: AdHocParser(ILogger(Of AdHocParser), Repository, MSBuildWorkspace)
-  fullName: Ahcs.Expander.AdHocParser.AdHocParser(Microsoft.Extensions.Logging.ILogger<Ahcs.Expander.AdHocParser>, LibGit2Sharp.Repository, Microsoft.CodeAnalysis.MSBuild.MSBuildWorkspace)
-  fullName.vb: Ahcs.Expander.AdHocParser.AdHocParser(Microsoft.Extensions.Logging.ILogger(Of Ahcs.Expander.AdHocParser), LibGit2Sharp.Repository, Microsoft.CodeAnalysis.MSBuild.MSBuildWorkspace)
-  nameWithType: AdHocParser.AdHocParser(ILogger<AdHocParser>, Repository, MSBuildWorkspace)
-  nameWithType.vb: AdHocParser.AdHocParser(ILogger(Of AdHocParser), Repository, MSBuildWorkspace)
+- uid: Ahcs.Expander.AdHocParser.#ctor(Microsoft.Extensions.Logging.ILogger{Ahcs.Expander.AdHocParser},Microsoft.CodeAnalysis.MSBuild.MSBuildWorkspace)
+  name: AdHocParser(ILogger<AdHocParser>, MSBuildWorkspace)
+  href: api/Ahcs.Expander.AdHocParser.html#Ahcs_Expander_AdHocParser__ctor_Microsoft_Extensions_Logging_ILogger_Ahcs_Expander_AdHocParser__Microsoft_CodeAnalysis_MSBuild_MSBuildWorkspace_
+  commentId: M:Ahcs.Expander.AdHocParser.#ctor(Microsoft.Extensions.Logging.ILogger{Ahcs.Expander.AdHocParser},Microsoft.CodeAnalysis.MSBuild.MSBuildWorkspace)
+  name.vb: AdHocParser(ILogger(Of AdHocParser), MSBuildWorkspace)
+  fullName: Ahcs.Expander.AdHocParser.AdHocParser(Microsoft.Extensions.Logging.ILogger<Ahcs.Expander.AdHocParser>, Microsoft.CodeAnalysis.MSBuild.MSBuildWorkspace)
+  fullName.vb: Ahcs.Expander.AdHocParser.AdHocParser(Microsoft.Extensions.Logging.ILogger(Of Ahcs.Expander.AdHocParser), Microsoft.CodeAnalysis.MSBuild.MSBuildWorkspace)
+  nameWithType: AdHocParser.AdHocParser(ILogger<AdHocParser>, MSBuildWorkspace)
+  nameWithType.vb: AdHocParser.AdHocParser(ILogger(Of AdHocParser), MSBuildWorkspace)
 - uid: Ahcs.Expander.AdHocParser.#ctor*
   name: AdHocParser
   href: api/Ahcs.Expander.AdHocParser.html#Ahcs_Expander_AdHocParser__ctor_
@@ -29,19 +29,25 @@ references:
   isSpec: "True"
   fullName: Ahcs.Expander.AdHocParser.AdHocParser
   nameWithType: AdHocParser.AdHocParser
-- uid: Ahcs.Expander.AdHocParser.GitRepo
-  name: GitRepo
-  href: api/Ahcs.Expander.AdHocParser.html#Ahcs_Expander_AdHocParser_GitRepo
-  commentId: P:Ahcs.Expander.AdHocParser.GitRepo
-  fullName: Ahcs.Expander.AdHocParser.GitRepo
-  nameWithType: AdHocParser.GitRepo
-- uid: Ahcs.Expander.AdHocParser.GitRepo*
-  name: GitRepo
-  href: api/Ahcs.Expander.AdHocParser.html#Ahcs_Expander_AdHocParser_GitRepo_
-  commentId: Overload:Ahcs.Expander.AdHocParser.GitRepo
+- uid: Ahcs.Expander.AdHocParser.ProcessFile(System.String,DirectoryInfo)
+  name: ProcessFile(String, DirectoryInfo)
+  href: api/Ahcs.Expander.AdHocParser.html#Ahcs_Expander_AdHocParser_ProcessFile_System_String_DirectoryInfo_
+  commentId: M:Ahcs.Expander.AdHocParser.ProcessFile(System.String,DirectoryInfo)
+  fullName: Ahcs.Expander.AdHocParser.ProcessFile(System.String, DirectoryInfo)
+  nameWithType: AdHocParser.ProcessFile(String, DirectoryInfo)
+- uid: Ahcs.Expander.AdHocParser.ProcessFile(System.String,System.String)
+  name: ProcessFile(String, String)
+  href: api/Ahcs.Expander.AdHocParser.html#Ahcs_Expander_AdHocParser_ProcessFile_System_String_System_String_
+  commentId: M:Ahcs.Expander.AdHocParser.ProcessFile(System.String,System.String)
+  fullName: Ahcs.Expander.AdHocParser.ProcessFile(System.String, System.String)
+  nameWithType: AdHocParser.ProcessFile(String, String)
+- uid: Ahcs.Expander.AdHocParser.ProcessFile*
+  name: ProcessFile
+  href: api/Ahcs.Expander.AdHocParser.html#Ahcs_Expander_AdHocParser_ProcessFile_
+  commentId: Overload:Ahcs.Expander.AdHocParser.ProcessFile
   isSpec: "True"
-  fullName: Ahcs.Expander.AdHocParser.GitRepo
-  nameWithType: AdHocParser.GitRepo
+  fullName: Ahcs.Expander.AdHocParser.ProcessFile
+  nameWithType: AdHocParser.ProcessFile
 - uid: Ahcs.Expander.AdHocParser.Solution
   name: Solution
   href: api/Ahcs.Expander.AdHocParser.html#Ahcs_Expander_AdHocParser_Solution
@@ -68,16 +74,50 @@ references:
   isSpec: "True"
   fullName: Ahcs.Expander.AdHocParser.Workspace
   nameWithType: AdHocParser.Workspace
-- uid: Ahcs.Expander.AdHocParser.YamlToXml(System.String)
-  name: YamlToXml(String)
-  href: api/Ahcs.Expander.AdHocParser.html#Ahcs_Expander_AdHocParser_YamlToXml_System_String_
-  commentId: M:Ahcs.Expander.AdHocParser.YamlToXml(System.String)
-  fullName: Ahcs.Expander.AdHocParser.YamlToXml(System.String)
-  nameWithType: AdHocParser.YamlToXml(String)
-- uid: Ahcs.Expander.AdHocParser.YamlToXml*
-  name: YamlToXml
-  href: api/Ahcs.Expander.AdHocParser.html#Ahcs_Expander_AdHocParser_YamlToXml_
-  commentId: Overload:Ahcs.Expander.AdHocParser.YamlToXml
+- uid: Ahcs.Expander.AdHosParserExtensions
+  name: AdHosParserExtensions
+  href: api/Ahcs.Expander.AdHosParserExtensions.html
+  commentId: T:Ahcs.Expander.AdHosParserExtensions
+  fullName: Ahcs.Expander.AdHosParserExtensions
+  nameWithType: AdHosParserExtensions
+- uid: Ahcs.Expander.AdHosParserExtensions.AddProjectToSolution(Microsoft.CodeAnalysis.MSBuild.MSBuildWorkspace,FileInfo,System.String,Microsoft.Extensions.Logging.ILogger)
+  name: AddProjectToSolution(MSBuildWorkspace, FileInfo, String, ILogger)
+  href: api/Ahcs.Expander.AdHosParserExtensions.html#Ahcs_Expander_AdHosParserExtensions_AddProjectToSolution_Microsoft_CodeAnalysis_MSBuild_MSBuildWorkspace_FileInfo_System_String_Microsoft_Extensions_Logging_ILogger_
+  commentId: M:Ahcs.Expander.AdHosParserExtensions.AddProjectToSolution(Microsoft.CodeAnalysis.MSBuild.MSBuildWorkspace,FileInfo,System.String,Microsoft.Extensions.Logging.ILogger)
+  fullName: Ahcs.Expander.AdHosParserExtensions.AddProjectToSolution(Microsoft.CodeAnalysis.MSBuild.MSBuildWorkspace, FileInfo, System.String, Microsoft.Extensions.Logging.ILogger)
+  nameWithType: AdHosParserExtensions.AddProjectToSolution(MSBuildWorkspace, FileInfo, String, ILogger)
+- uid: Ahcs.Expander.AdHosParserExtensions.AddProjectToSolution*
+  name: AddProjectToSolution
+  href: api/Ahcs.Expander.AdHosParserExtensions.html#Ahcs_Expander_AdHosParserExtensions_AddProjectToSolution_
+  commentId: Overload:Ahcs.Expander.AdHosParserExtensions.AddProjectToSolution
   isSpec: "True"
-  fullName: Ahcs.Expander.AdHocParser.YamlToXml
-  nameWithType: AdHocParser.YamlToXml
+  fullName: Ahcs.Expander.AdHosParserExtensions.AddProjectToSolution
+  nameWithType: AdHosParserExtensions.AddProjectToSolution
+- uid: Ahcs.Expander.Ahcs.Expander
+  name: Ahcs.Expander.Ahcs.Expander
+  href: api/Ahcs.Expander.Ahcs.Expander.html
+  commentId: N:Ahcs.Expander.Ahcs.Expander
+  fullName: Ahcs.Expander.Ahcs.Expander
+  nameWithType: Ahcs.Expander.Ahcs.Expander
+- uid: Ahcs.Expander.Ahcs.Expander.AdHosParserExtensions
+  name: AdHosParserExtensions
+  href: api/Ahcs.Expander.Ahcs.Expander.AdHosParserExtensions.html
+  commentId: T:Ahcs.Expander.Ahcs.Expander.AdHosParserExtensions
+  fullName: Ahcs.Expander.Ahcs.Expander.AdHosParserExtensions
+  nameWithType: AdHosParserExtensions
+- uid: Ahcs.Expander.Ahcs.Expander.AdHosParserExtensions.AddProjectToSolution(MSBuildWorkspace,FileInfo,System.String,System.Nullable{ILogger})
+  name: AddProjectToSolution(MSBuildWorkspace, FileInfo, String, Nullable<ILogger>)
+  href: api/Ahcs.Expander.Ahcs.Expander.AdHosParserExtensions.html#Ahcs_Expander_Ahcs_Expander_AdHosParserExtensions_AddProjectToSolution_MSBuildWorkspace_FileInfo_System_String_System_Nullable_ILogger__
+  commentId: M:Ahcs.Expander.Ahcs.Expander.AdHosParserExtensions.AddProjectToSolution(MSBuildWorkspace,FileInfo,System.String,System.Nullable{ILogger})
+  name.vb: AddProjectToSolution(MSBuildWorkspace, FileInfo, String, Nullable(Of ILogger))
+  fullName: Ahcs.Expander.Ahcs.Expander.AdHosParserExtensions.AddProjectToSolution(MSBuildWorkspace, FileInfo, System.String, System.Nullable<ILogger>)
+  fullName.vb: Ahcs.Expander.Ahcs.Expander.AdHosParserExtensions.AddProjectToSolution(MSBuildWorkspace, FileInfo, System.String, System.Nullable(Of ILogger))
+  nameWithType: AdHosParserExtensions.AddProjectToSolution(MSBuildWorkspace, FileInfo, String, Nullable<ILogger>)
+  nameWithType.vb: AdHosParserExtensions.AddProjectToSolution(MSBuildWorkspace, FileInfo, String, Nullable(Of ILogger))
+- uid: Ahcs.Expander.Ahcs.Expander.AdHosParserExtensions.AddProjectToSolution*
+  name: AddProjectToSolution
+  href: api/Ahcs.Expander.Ahcs.Expander.AdHosParserExtensions.html#Ahcs_Expander_Ahcs_Expander_AdHosParserExtensions_AddProjectToSolution_
+  commentId: Overload:Ahcs.Expander.Ahcs.Expander.AdHosParserExtensions.AddProjectToSolution
+  isSpec: "True"
+  fullName: Ahcs.Expander.Ahcs.Expander.AdHosParserExtensions.AddProjectToSolution
+  nameWithType: AdHosParserExtensions.AddProjectToSolution
