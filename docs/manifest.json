@@ -17,11 +17,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Ahcs.Expander.AdHosParserExtensions.yml",
+      "source_relative_path": "api/Ahcs.Expander.AdHocParserExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Ahcs.Expander.AdHosParserExtensions.html",
-          "hash": "j4jK781Ku8eFa+px3VD/ts8w3g9vEpy4Vp8PSyttkhU="
+          "relative_path": "api/Ahcs.Expander.AdHocParserExtensions.html",
+          "hash": "uczCN94+4CNBYSLB62s6M0bwx/7Ybo8/1fBBNhYP8Rc="
         }
       },
       "is_incremental": false,
@@ -29,11 +29,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Ahcs.Expander.Ahcs.Expander.AdHosParserExtensions.yml",
+      "source_relative_path": "api/Ahcs.Expander.Ahcs.Expander.AdHocParserExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Ahcs.Expander.Ahcs.Expander.AdHosParserExtensions.html",
-          "hash": "I12CgF0X7Eq2V0jkF1QPtFP1KVwEuYrZhi4K5zZFDPc="
+          "relative_path": "api/Ahcs.Expander.Ahcs.Expander.AdHocParserExtensions.html",
+          "hash": "QkwXJvNtOUmwr4MlEdNZvKwtNyXzvvverkRPYIc5yzg="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Ahcs.Expander.Ahcs.Expander.html",
-          "hash": "fvQo0bqGe+NNBpCPyiI7FvH8pwFBcp+WJhbUXExiUfQ="
+          "hash": "ZRoI1WPHMj1u4MVYLttjMlGp+rZ4dC9cgMj7byHpyfg="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Ahcs.Expander.html",
-          "hash": "GBnZmm30pa6WITibYaZ6y1QrKtfs1EfwBI+BLI59Ne4="
+          "hash": "Osz1CxruF0gO20uaVy/yWNcvgeieT+DEOVBmj/SFubU="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "8imq8QN6MGSMSRL/JV4obHVzKZU+LrdQVHz4cgP+VOc="
+          "hash": "oVHsScms5rqeOdZ9FYT9fJPmbp23zXh7jmRgcAOn7lo="
         }
       },
       "is_incremental": false,
@@ -155,7 +155,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 5,
-          "skipped_file_count": 0
+          "skipped_file_count": 1
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
