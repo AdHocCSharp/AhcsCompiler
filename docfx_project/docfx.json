@@ -3,10 +3,12 @@
     {
       "src": [
         {
-          "src": "..",
-          "files": [
-            "**/src/**"
-          ]
+            "dest": "../docs",
+            "rootTocPath": "docfx_project/toc.yml",
+            "src": "..",
+            "files": [
+                "**/src/**"
+            ]
         }
       ],
       "dest": "api",

@@ -7,9 +7,77 @@ references:
   commentId: N:Ahcs.Expander
   fullName: Ahcs.Expander
   nameWithType: Ahcs.Expander
-- uid: Ahcs.Expander.Class1
-  name: Class1
-  href: api/Ahcs.Expander.Class1.html
-  commentId: T:Ahcs.Expander.Class1
-  fullName: Ahcs.Expander.Class1
-  nameWithType: Class1
+- uid: Ahcs.Expander.AdHocParser
+  name: AdHocParser
+  href: api/Ahcs.Expander.AdHocParser.html
+  commentId: T:Ahcs.Expander.AdHocParser
+  fullName: Ahcs.Expander.AdHocParser
+  nameWithType: AdHocParser
+- uid: Ahcs.Expander.AdHocParser.#ctor(Microsoft.Extensions.Logging.ILogger{Ahcs.Expander.AdHocParser},LibGit2Sharp.Repository,Microsoft.CodeAnalysis.MSBuild.MSBuildWorkspace)
+  name: AdHocParser(ILogger<AdHocParser>, Repository, MSBuildWorkspace)
+  href: api/Ahcs.Expander.AdHocParser.html#Ahcs_Expander_AdHocParser__ctor_Microsoft_Extensions_Logging_ILogger_Ahcs_Expander_AdHocParser__LibGit2Sharp_Repository_Microsoft_CodeAnalysis_MSBuild_MSBuildWorkspace_
+  commentId: M:Ahcs.Expander.AdHocParser.#ctor(Microsoft.Extensions.Logging.ILogger{Ahcs.Expander.AdHocParser},LibGit2Sharp.Repository,Microsoft.CodeAnalysis.MSBuild.MSBuildWorkspace)
+  name.vb: AdHocParser(ILogger(Of AdHocParser), Repository, MSBuildWorkspace)
+  fullName: Ahcs.Expander.AdHocParser.AdHocParser(Microsoft.Extensions.Logging.ILogger<Ahcs.Expander.AdHocParser>, LibGit2Sharp.Repository, Microsoft.CodeAnalysis.MSBuild.MSBuildWorkspace)
+  fullName.vb: Ahcs.Expander.AdHocParser.AdHocParser(Microsoft.Extensions.Logging.ILogger(Of Ahcs.Expander.AdHocParser), LibGit2Sharp.Repository, Microsoft.CodeAnalysis.MSBuild.MSBuildWorkspace)
+  nameWithType: AdHocParser.AdHocParser(ILogger<AdHocParser>, Repository, MSBuildWorkspace)
+  nameWithType.vb: AdHocParser.AdHocParser(ILogger(Of AdHocParser), Repository, MSBuildWorkspace)
+- uid: Ahcs.Expander.AdHocParser.#ctor*
+  name: AdHocParser
+  href: api/Ahcs.Expander.AdHocParser.html#Ahcs_Expander_AdHocParser__ctor_
+  commentId: Overload:Ahcs.Expander.AdHocParser.#ctor
+  isSpec: "True"
+  fullName: Ahcs.Expander.AdHocParser.AdHocParser
+  nameWithType: AdHocParser.AdHocParser
+- uid: Ahcs.Expander.AdHocParser.GitRepo
+  name: GitRepo
+  href: api/Ahcs.Expander.AdHocParser.html#Ahcs_Expander_AdHocParser_GitRepo
+  commentId: P:Ahcs.Expander.AdHocParser.GitRepo
+  fullName: Ahcs.Expander.AdHocParser.GitRepo
+  nameWithType: AdHocParser.GitRepo
+- uid: Ahcs.Expander.AdHocParser.GitRepo*
+  name: GitRepo
+  href: api/Ahcs.Expander.AdHocParser.html#Ahcs_Expander_AdHocParser_GitRepo_
+  commentId: Overload:Ahcs.Expander.AdHocParser.GitRepo
+  isSpec: "True"
+  fullName: Ahcs.Expander.AdHocParser.GitRepo
+  nameWithType: AdHocParser.GitRepo
+- uid: Ahcs.Expander.AdHocParser.Solution
+  name: Solution
+  href: api/Ahcs.Expander.AdHocParser.html#Ahcs_Expander_AdHocParser_Solution
+  commentId: P:Ahcs.Expander.AdHocParser.Solution
+  fullName: Ahcs.Expander.AdHocParser.Solution
+  nameWithType: AdHocParser.Solution
+- uid: Ahcs.Expander.AdHocParser.Solution*
+  name: Solution
+  href: api/Ahcs.Expander.AdHocParser.html#Ahcs_Expander_AdHocParser_Solution_
+  commentId: Overload:Ahcs.Expander.AdHocParser.Solution
+  isSpec: "True"
+  fullName: Ahcs.Expander.AdHocParser.Solution
+  nameWithType: AdHocParser.Solution
+- uid: Ahcs.Expander.AdHocParser.Workspace
+  name: Workspace
+  href: api/Ahcs.Expander.AdHocParser.html#Ahcs_Expander_AdHocParser_Workspace
+  commentId: P:Ahcs.Expander.AdHocParser.Workspace
+  fullName: Ahcs.Expander.AdHocParser.Workspace
+  nameWithType: AdHocParser.Workspace
+- uid: Ahcs.Expander.AdHocParser.Workspace*
+  name: Workspace
+  href: api/Ahcs.Expander.AdHocParser.html#Ahcs_Expander_AdHocParser_Workspace_
+  commentId: Overload:Ahcs.Expander.AdHocParser.Workspace
+  isSpec: "True"
+  fullName: Ahcs.Expander.AdHocParser.Workspace
+  nameWithType: AdHocParser.Workspace
+- uid: Ahcs.Expander.AdHocParser.YamlToXml(System.String)
+  name: YamlToXml(String)
+  href: api/Ahcs.Expander.AdHocParser.html#Ahcs_Expander_AdHocParser_YamlToXml_System_String_
+  commentId: M:Ahcs.Expander.AdHocParser.YamlToXml(System.String)
+  fullName: Ahcs.Expander.AdHocParser.YamlToXml(System.String)
+  nameWithType: AdHocParser.YamlToXml(String)
+- uid: Ahcs.Expander.AdHocParser.YamlToXml*
+  name: YamlToXml
+  href: api/Ahcs.Expander.AdHocParser.html#Ahcs_Expander_AdHocParser_YamlToXml_
+  commentId: Overload:Ahcs.Expander.AdHocParser.YamlToXml
+  isSpec: "True"
+  fullName: Ahcs.Expander.AdHocParser.YamlToXml
+  nameWithType: AdHocParser.YamlToXml

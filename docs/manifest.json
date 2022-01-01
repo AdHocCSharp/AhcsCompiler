@@ -5,11 +5,11 @@
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Ahcs.Expander.Class1.yml",
+      "source_relative_path": "api/Ahcs.Expander.AdHocParser.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Ahcs.Expander.Class1.html",
-          "hash": "pJAdCm+16AEbnlpl1Vlj9puipyGzkdMUuOyslEAA+H4="
+          "relative_path": "api/Ahcs.Expander.AdHocParser.html",
+          "hash": "+uYNzkx50lgJ8IvHOduFzQozJFZmTcUMTKrc1qRoW80="
         }
       },
       "is_incremental": true,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Ahcs.Expander.html",
-          "hash": "YaAEFnPNOTKd13t2hgGCsAw9skRD2+4u5x2XUYVoCHo="
+          "hash": "YhAT1Gu3ra9LMmpSrBFmgC3nyMwm20nkGQbfZct2kK4="
         }
       },
       "is_incremental": true,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "mZlbTkpARdwRhrnx6O2ViAxq7GTnMVMZyOGj4NSyyHE="
+          "hash": "ENpfjkLAot5TqzV4AjTyNyafuaBTOXxqjok4Evuqqc8="
         }
       },
       "is_incremental": false,

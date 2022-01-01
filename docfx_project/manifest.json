@@ -1,9 +1,0 @@
-{
-    "source_base_path": ".",
-    "files": [
-        {
-            "type": "ManagedReference",
-            "source_relative_path": "..\\Ahcs.Expander\\src\\bin\\Debug\\net6.0\\Ahcs.Expander.dll"
-        }
-    ]
-}

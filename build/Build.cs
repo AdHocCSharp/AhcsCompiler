@@ -64,11 +64,7 @@ class Build : NukeBuild
             }
 
             string docfxConfig = RootDirectory + "/docfx_project/docfx.json";
-
-            result = DocFXTasks.DocFXBuild(settings =>
-                settings.SetConfigFile(docfxConfig)
-                    .SetLogLevel(DocFXLogLevel.Warning)
-            );
+            result = DocFXTasks.DocFX(docfxConfig, RootDirectory + "/docfx_project");
             // log = string.Join(Environment.NewLine, result.Select(o => o.Text));
             // Serilog.Log.Debug(log);
             Serilog.Log.Information($"Updated Docs with ExitCode: {ExitCode}");
