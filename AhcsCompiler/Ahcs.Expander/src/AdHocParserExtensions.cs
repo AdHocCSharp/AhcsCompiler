@@ -1,15 +1,6 @@
 ﻿namespace Ahcs.Expander;
 
-using System.Reflection;
-
-using LibGit2Sharp;
-
-using Microsoft.CodeAnalysis.MSBuild;
-using Microsoft.Extensions.Logging;
-
-using static LibGit2Sharp.Commands;
-
-public static class AdHosParserExtensions
+public static class AdHocParserExtensions
 {
     internal static (bool result, Commit? commit) ProcessToken(
         this CompilationUnitSyntax root,

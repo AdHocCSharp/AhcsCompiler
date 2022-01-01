@@ -10,3 +10,12 @@ global using YamlDotNet.Serialization;
 global using YamlDotNet.Serialization.NamingConventions;
 
 global using static System.StringComparison;
+
+global using System.Reflection;
+
+global using LibGit2Sharp;
+
+global using Microsoft.CodeAnalysis.MSBuild;
+global using Microsoft.Extensions.Logging;
+
+global using static LibGit2Sharp.Commands;
